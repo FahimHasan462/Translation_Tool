@@ -1,0 +1,31 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Large model files
+models/
+
+# Job output and test output (may contain client material)
+jobs/
+quick_test_output/
+
+# Client media: confidential, never commit
+test_videos/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.ogg
+
+# Secrets
+.env
+*.token
+
+# Editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
